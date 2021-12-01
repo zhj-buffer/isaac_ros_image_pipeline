@@ -56,7 +56,7 @@ You can either provide an optional path to mirror in your host ROS workspace wit
 `mkdir -p your_ws/src`  
 **Note:** The workspace can have any name; the quickstart assumes you name it `your_ws`.
 2. Clone this metapackage repository to `your_ws/src/isaac_ros_image_pipeline`. Check that you have [Git LFS](https://git-lfs.github.com/) installed before cloning to pull down all large files.  
-`sudo apt-get install git-lfs`  
+`sudo apt-get install git-lfs nvidia-vpi`  
 `cd your_ws/src && git clone https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline`
 3. Build and source the workspace:  
 `cd your_ws && colcon build --symlink-install && source install/setup.bash`
